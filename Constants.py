@@ -29,7 +29,7 @@ class Constants:
         self.LINK_PROPERTY_PROP: str = ""
         self.LICENSE_PROP: str = ""
         self.LINK_LIC_PROP: str = ""
-        self.ALTOVA_PROD_PROP: str = ""
+        self.PROD_PROP: str = ""
         self.TIME_VER_PROP: str = ""
 
     # header section
@@ -105,10 +105,10 @@ Yes, reason for update?"""
         self.LINK_LIC_PROP = "Link to website showing license:"
         return self.LINK_LIC_PROP
 
-    def get_altova_prod_prop(self) -> str:
-        self.ALTOVA_PROD_PROP = """Altova products that will
+    def get_prod_prop(self) -> str:
+        self.PROD_PROP = """Products that will
 introduce license?"""
-        return self.ALTOVA_PROD_PROP
+        return self.PROD_PROP
 
     def get_affected_products(self) -> str:
         self.AFFECTED_PRODUCTS = """List of all products where the software is usesd
