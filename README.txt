@@ -11,21 +11,21 @@ NOTES
 Before sending the legal documents to David
 ===========================================
 
-+ Add the entries concerning the new taxonomy to the most recent XSLX file (e.g.: Altova Taxonomies List 20200909.xlsx). Mark the added entries yellow.
++ Add the entries concerning the new taxonomy to the most recent XSLX file (e.g.: Taxonomies List 20200909.xlsx). Mark the added entries yellow.
 
 + Use the DOCX files as templates, update the content and add the date at the end of the file. Recent taxonomies always can be found in the "YYYY-MM-DD" folder.
   It reflects the actual progress. The date in the name of the folder marks the date on which the legal documents were sent to David Gast (e.g.: EBA 2.10 Phase2 Taxonomy -Third Party Software License Approval Form 20200909.docx).
 
-+ In the same folder are also files stored, which David sends back (e.g.: Copy of Altova Taxonomies List 20200909 DAG.xlsx).
++ In the same folder are also files stored, which David sends back (e.g.: Copy of Taxonomies List 20200909 DAG.xlsx).
 
 + Add a TXT file to the current directory containing the contents of the mail David sent in reply (e.g.: EMAIL 20200909.txt).
 
 + Example of how a folder should look like, if the David is already informed about the new taxonomies:
 
   2020-09-09
-    |- Altova Taxonomies List 20200909.xlsx
+    |- Taxonomies List 20200909.xlsx
     |- BOE 2.1.0 Insurance Taxonomy -Third Party Software License Approval Form 20200909.docx
-    |- Copy of Altova Taxonomies List 20200909 DAG.xlsx
+    |- Copy of Taxonomies List 20200909 DAG.xlsx
     |- EBA 2.10 Phase2 Taxonomy -Third Party Software License Approval Form 20200909.docx
     |- EIOPA Pension Funds 2.5.0 Taxonomy -Third Party Software License Approval Form 20200909.docx
     |- EIOPA Solvency II 2.5.0 Taxonomy -Third Party Software License Approval Form 20200909.docx
@@ -45,7 +45,7 @@ NOTE : David needs a bit more time to approve license approval documents.
 USING THE SCRIPT
 ----------------
 
-Current Maintainer: Altova XML/XBRL Standards Maintainer
+Current Maintainer: XML/XBRL Standards Maintainer
 
 The scripts allows the user to automatically generate a license approval
 forms for David Gast. It is necessary to send the approval to him after a 
