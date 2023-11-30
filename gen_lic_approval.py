@@ -308,10 +308,10 @@ def main() -> None:
         para_l_cell: _Cell = set_paragraph(header_table, 0, 0, 0)
         run_l_cell: Run = para_l_cell.add_run(objConsts.get_header_text())
         run_l_cell.font.size = Pt(11)
-        # right cell displays altova logo
+        # right cell displays logo
         para_r_cell: _Cell = set_paragraph(header_table, 0, 1, 0)
         run_r_cell = para_r_cell.add_run()
-        # run_r_cell.add_picture("img\\altova_logo.png", width=1380000, height=520000)
+        # run_r_cell.add_picture("img\\logo.png", width=1380000, height=520000)
         # set title 'THIRD PARTY SOFTWARE LICENSE APPROVAL FORM'
         set_title(doc, WD_ALIGN_PARAGRAPH.CENTER, objConsts.get_title_main_section(), True, 13)
 
@@ -438,9 +438,9 @@ def main() -> None:
         if taxonomy_family_name == "boe-statistics" or taxonomy_family_name == "boe-banking" or taxonomy_family_name == "boe-insurance":
             add_hyperlink(licweb_hyperlink, iterate_over_license_section(template, "licweb1"), iterate_over_license_section(template, "licweb1"))
 
-        # Altova products that will introduce license?
+        # Products that will introduce license?
         # --------------------------------------------
-        set_main_section_paragraph(main_table, 7, 0, objConsts.get_altova_prod_prop())
+        set_main_section_paragraph(main_table, 7, 0, objConsts.get_prod_prop())
         set_main_section_paragraph(main_table, 7, 1, objConsts.get_affected_products())
 
         # Approximate time/version?
